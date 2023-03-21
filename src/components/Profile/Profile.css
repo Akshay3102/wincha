@@ -1,0 +1,761 @@
+.profile_container {
+    width: 100%;
+    min-height: 100vh;
+    height: 100vh;
+    background-color: #2d2d2d;
+    overflow-y: hidden;
+    position: relative;
+}
+.loder {
+    
+}
+.loder div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99999;
+    width: 50%;
+    height: auto;
+}
+
+.loder div svg{
+    width: 50% !important;
+    height: auto;
+    object-fit: contain;
+}
+.base_pop {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    background-color: #0a80f1;
+    width: 20%;
+    height: 200px;
+    z-index: 9999;
+    border: solid;
+    border-radius: 30px;
+    border-width: 8px;
+    border-color: darkgray;
+}
+
+.support_icon {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    /* width: 100%;     */
+}
+
+.support_icon img {
+    width: 60%;
+    margin-left: 45px;
+}
+
+.resend_email {
+    background-color: #0a80f1;
+    margin-top: 30px;
+    color: white;
+    padding: 8px;
+    border-radius: 50px;
+    border-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 10px;
+    width: 200px;
+    font-family: myraidproregular;
+
+}
+
+.popup_cont {
+    color: white;
+    white-space: nowrap;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: myraidproregular;
+}
+
+.profile_page {
+    width: 30%;
+    height: 100%;
+    background-color: #0a80f1;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.profile_head {
+    /* background-color: #0a80f1; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.profile_image {
+    width: 37.5%;
+    height: 100%;
+    /* margin-left: 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profile_image img {
+    width: 100%;
+    height: auto;
+    /* object-fit: contain; */
+    /* margin-left: 150px; */
+    margin-top: 30px;
+}
+
+.profile_items {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 120px; */
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+
+}
+
+.profile {
+    border-radius: 50px;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    /* margin-top: 30px; */
+    margin-left: 60px;
+
+}
+
+.profile button {
+    font-family: drumshake_italic;
+    background-color: #0a80f1;
+    color: #fff;
+    border: none;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: none;
+    margin-top: 5px;
+    /* font-weight: bold; */
+    letter-spacing: 1px;
+
+}
+
+.history {
+    color: #fff;
+    text-align: center;
+    border: none;
+    font-family: drumshake_italic;
+    font-size: 25px;
+    background-color: #e60000;
+    text-align: center;
+    border: none;
+    font-family: drumshake_italic;
+    font-size: 30px;
+    width: 220px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.faq {
+    color: #2d2d2d;
+    text-align: center;
+    border: none;
+    font-family: drumshake_italic;
+    font-size: 30px;
+    background-color: #f9e763;
+    width: 220px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.tabimgact {
+    z-index: 99;
+    width: 100%;
+
+
+}
+
+
+
+.deactivate_account {
+    color: #fff;
+    text-align: center;
+
+    font-family: drumshake_italic;
+
+    background-color: #0a80f1;
+    text-align: center;
+
+    font-family: drumshake_italic;
+    font-size: 25px;
+    width: 170px;
+    height: 35px;
+    border-radius: 50px;
+    border-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    /* margin-left: 10px; */
+
+}
+
+.head_button {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+
+
+}
+
+.head_button img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+
+}
+
+.nonActive {
+    background-color: #0a80f1;
+    color: #fff;
+    /* border: none; */
+    font-family: drumshake_italic;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 30px 30px 0px 30px;
+    border-color: #2d2d2d #2d2d2d #0a80f1 #0a80f1;
+    border-width: 5px;
+    border-style: solid;
+    height: 50px;
+    width: 60%;
+
+
+
+}
+
+.active {
+    background-color: #bebebe;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    border: none;
+    font-family: drumshake_italic;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 23px 15px 0px 23px;
+    border-color: #2d2d2d #2d2d2d #2d2d2d #2d2d2d;
+    border-width: 5px;
+    border-style: solid;
+    width: 60%;
+    height: 50px;
+
+}
+
+.profile_information {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    position: absolute;
+    bottom: 0;
+    /* left: 50px; */
+    z-index: 999;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, 10%);
+
+}
+
+.profile_information div {
+
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 3px;
+
+
+
+
+}
+
+.username {
+    font-size: 20px;
+    font-family: myraidproregular;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fffbfb;
+
+}
+
+.username label {
+    width: 50%;
+    font-size: 20px;
+}
+
+.username input {
+    width: 50%;
+    outline: none;
+    /* background-color: #0a80f1; */
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 1px;
+    color: white;
+    padding: 10px;
+
+}
+
+input::placeholder {
+    color: white;
+
+
+}
+
+.birthday {
+    font-size: 25px;
+    font-family: myraidproregular;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.birthday label {
+    width: 50%;
+    font-size: 20px;
+}
+
+.birthday input {
+    width: 50%;
+    outline: none;
+    background-color: transparent;
+
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 10px;
+}
+
+.email {
+    font-size: 25px;
+    font-family: myraidproregular;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.email label {
+    width: 50%;
+    font-size: 20px;
+}
+
+.email input {
+    width: 50%;
+    outline: none;
+    background-color: transparent;
+
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 10px;
+    text-overflow: ellipsis;
+}
+
+.password {
+    font-size: 25px;
+    font-family: myraidproregular;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+
+}
+
+.password label {
+    width: 50%;
+    font-size: 20px;
+}
+
+.password .password_icon {
+    width: 50%;
+    outline: none;
+    background-color: transparent;
+
+    border-bottom: 1px solid black;
+
+}
+
+
+.password input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 3px;
+
+
+}
+
+.suscription {
+    font-size: 25px;
+    font-family: myraidproregular;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 10px 0px;
+
+}
+
+.suscription label {
+    width: 50%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* .suscription p {
+    width: 30%;
+    background: transparent;
+    font-size: 25px;
+    text-align: start;
+
+
+} */
+
+.sus_icon .info_icon {
+    width: 50px;
+    /* margin-left: 90%; */
+    /* height: 60px; */
+    /* margin-bottom: 10px; */
+
+}
+
+.sus_icon .info_icon img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.profile_body {
+    height: 50%;
+    margin-top: 10px;
+    position: relative;
+    background-color: #3b82f6;
+
+
+}
+
+.sus_icon {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 1px; */
+
+}
+
+.sus_icon input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 3px;
+
+}
+
+.shipping_information {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%, 0%);
+    z-index: 999;
+}
+
+.shipping_information div {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.phone_number {
+    font-size: 25px;
+    font-family: myraidproregular;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.phone_number label {
+    width: 50%;
+}
+
+.phone_number input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    /* text-align: center; */
+    letter-spacing: 1px;
+    color: #fff;
+    margin-left: 15px;
+
+
+}
+
+.phone_number input::placeholder {
+    color: black;
+}
+
+.phone_number .phonenumber_icon {
+    width: 50%;
+    outline: none;
+    bottom: 2px;
+    background: transparent;
+    border-bottom: 2px solid black;
+
+}
+
+.shipping_details {
+    font-size: 25px;
+    font-family: myraidproregular;
+    width: 100%;
+    height: 100%;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.shipping_details label {
+    width: 50%;
+}
+
+.shipping_list {
+    flex-direction: column;
+    width: 47%;
+
+
+}
+
+.shipping_list input {
+    outline: none;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    /* text-align: center; */
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 5px;
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .profile_container {
+        width: 100%;
+        height: 100vh;
+        background-color: #2d2d2d;
+    }
+
+    .profile_page {
+        width: 70%;
+        height: 75%;
+        background-color: #0a80f1;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .profile_image img {
+        width: 80%;
+        height: auto;
+        /* object-fit: contain; */
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .deactivate_account {
+        color: #fff;
+        text-align: center;
+        font-family: drumshake_italic;
+
+        background-color: #0a80f1;
+        text-align: center;
+        font-family: drumshake_italic;
+        font-size: 25px;
+        width: 170px;
+        height: 35px;
+
+        border-color: #fff;
+        border-width: 2px;
+        border-style: solid;
+        margin-top: 10px;
+
+
+
+    }
+
+    .profile_items {
+        width: 50%;
+        height: 100%;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: space-evenly; */
+
+        margin-bottom: 30px;
+
+    }
+
+    .email input {
+        width: 50%;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black;
+        font-size: 15px;
+        text-align: left;
+        letter-spacing: 1px;
+        color: #fff;
+        text-overflow: ellipsis;
+
+        background-color: transparent;
+    }
+
+    .phone_number input {
+        width: 90%;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        /* text-align: center; */
+        letter-spacing: 1px;
+        color: #fff;
+        margin-left: 10px;
+
+    }
+
+    .phone_number input::placeholder {
+        color: black;
+    }
+
+    .phone_number .phonenumber_icon {
+        width: 50%;
+        outline: none;
+        background: transparent;
+        border-bottom: 2px solid black;
+    }
+
+    .phone_number .phonenumber_icon img {
+        margin-top: 20px;
+    }
+
+    .base_pop {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #0a80f1;
+        width: 50%;
+        height: 200px;
+        z-index: 9999;
+        border: solid;
+        border-radius: 30px;
+        border-width: 8px;
+        border-color: darkgray;
+    }
+
+    .support_icon {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -28%);
+        /* width: 100%;     */
+    }
+
+    .support_icon img {
+        width: 50%;
+        margin-left: 60px;
+    }
+
+    .resend_email {
+        background-color: #0a80f1;
+        /* margin-top: 50px; */
+        color: white;
+        padding: 8px;
+        border-radius: 50px;
+        border-color: #fff;
+        border-width: 2px;
+        border-style: solid;
+        margin-left: 1px;
+        width: 200px;
+        font-family: myraidproregular;
+
+
+    }
+
+    .popup_cont {
+        color: white;
+        white-space: nowrap;
+        font-weight: lighter;
+        font-style: normal;
+        font-size: 18px;
+        margin-top: 10px;
+        font-family: myraidproregular;
+
+    }
+
+}

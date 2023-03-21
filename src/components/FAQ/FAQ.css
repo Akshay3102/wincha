@@ -1,0 +1,114 @@
+.faq_container {
+    width: 100%;
+    height: 100vh;
+    background-color: #2d2d2d;
+}
+
+
+.faq_page {
+    width: 35%;
+    height: 80%;
+    background-color: #f9e763;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: space-between; */
+}
+
+
+.faq_head {
+    color: #2d2d2d;
+    text-align: center;
+    border: none;
+    font-family: drumshake_italic;
+    font-size: 50px;
+    background-color: transparent;
+    width: 125px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: #2d2d2d;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-top: 5px;
+    margin: 25px auto;
+}
+
+.registration {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.registration p {
+    text-align: center;
+}
+
+.faq_itemtext {
+    color: #2d2d2d;
+    font-family: drumshake_italic;
+    font-size: 80px;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    /* height: 80%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faq_itemtext img {
+    width: 50px;
+    height: 50px;
+}
+
+.faq_replybox {
+    background-color: #fff;
+    margin: 50px auto;
+    width: 80%;
+    height: 60%;
+    border-radius: 35px;
+    border-color: #2d2d2d;
+    border-width: 5px;
+    border-style: solid;
+    padding: 20px;
+}
+
+.faq_replyhead {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.head_title {
+    font-family: drumshake_italic;
+    font-size: 40px;
+
+}
+
+.head_title p {
+    text-align: start;
+}
+
+.head_icon {
+    width: 40px;
+    height: 50px;
+}
+
+.faq_replycontent {
+    font-size: 25px;
+    font-family: myraidproregular;
+    text-align: start;
+   
+}

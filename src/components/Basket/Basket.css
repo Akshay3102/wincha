@@ -1,0 +1,205 @@
+.basket_container{
+    background-image: url('../../assets/Images/Basket/ShippingBG.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.basket_page{
+    width: 40%;
+    height: 100%;
+    background-color: #2d2d2d;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+
+}
+.basket_top{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0px ;
+    border-bottom: 1.5px solid #fff;
+    height: 55%;
+}
+.basket_head{
+    color: #fff;
+    font-family: drumshake_italic;
+    font-size: 25px;
+    border-radius: 50px;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    width: 20%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    height: 53px;
+    padding-top: 10px;
+}
+.winitem_one{
+    
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    /* margin-left: auto;
+    margin-right: auto;  */
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 100%;
+}
+.winitem_first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 80px;
+}
+.winitem_first p{
+    font-family: myraidproregular;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 40px;
+}
+.winitem_second {
+    margin-top: 30px;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15%;
+    margin-right: 80px;
+}
+.winitem_second svg{
+    font-size: 45px;
+    /* padding-left: 40px; */
+}
+.basket_bottom{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.basket_btop{
+   
+        width: 100%;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+   
+}
+.clubehouse{
+  
+        /* width: 330px; */
+        width: 50%;
+        align-items: center;
+        /* margin-left: 50px; */
+  
+}
+.clubehouse img{
+    width: 100%;
+    height: 100%;
+}
+.free{
+    
+        /* margin-left: 180px; */
+        width: 22%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+   
+}
+.free label{
+    font-size: 30px;
+    color: #fff;
+    font-family:myraidproregular ;
+    font-weight: bold;
+}
+/* .free span{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+} */
+.basket_bbottom{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+        justify-content: space-between;
+        text-align: center;
+    
+}
+.standard{
+    font-size: 28px;
+    color: #fff;
+    font-family:myraidproregular ;
+    width: 50%;
+    font-weight: bold;
+}
+.standard p{
+    text-align: center;
+}
+.basket_ticket{
+   
+        display: flex;
+        flex-direction: row;
+        /* margin-left: 150px; */
+        width: 35%;
+        justify-content: space-between;
+        text-align: center;
+}
+.basket_ticket img{
+    /* width: 100%;
+    height: auto; */
+    object-fit: contain;
+}
+.basket_ticket p{
+    font-size: 35px;
+    color: #fff;
+    font-family:myraidproregular ;
+    font-weight: bold;
+}
+.primeActive,.primeNotActive{
+    width: 50px;
+    height: 50px;
+    /* background-color: #fff; */
+    border-radius: 50%;
+}
+.basket_checkout{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkout{
+    color: #fff;
+    background-color:#0a80f1;
+    font-family: drumshake_italic;
+    border-radius: 25px;
+    border-color: #fff;
+    border-width:2px;
+    border-style: solid;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    margin-top: 50px;
+    /* margin-left: 200px; */
+    /* border: none; */
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+}
+.primeActive{
+     background-color: green;
+}
+.primeNotActive{
+    background-color: gray;
+}

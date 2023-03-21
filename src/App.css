@@ -1,0 +1,25 @@
+.hello{
+  background-color: antiquewhite;
+}
+@font-face {
+  font-family: drumshake_italic;
+  src: url('./assets/Fonts/drumshake_italic.otf');
+
+}
+@font-face {
+  font-family: arial_rounded_mt_bold;
+  src: url('./assets/Fonts/arial_rounded_mt_bold.ttf');
+}
+
+
+@font-face {
+  font-family: myriadprolight;
+  src: url('./assets/Fonts/myriadprolight.otf');
+}
+
+
+
+@font-face {
+  font-family: myraidproregular;
+  src: url('./assets/Fonts/myraidproregular.OTF');
+}
